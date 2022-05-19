@@ -1,14 +1,12 @@
 package io.github.zhiweicoding.csw.models;
 
 import java.io.Serializable;
-import java.util.List;
-import java.util.Map;
 
 /**
+ *
  * @Created by zhiwei on 2022/3/11.
  */
 public class BaseResponse<T> implements Serializable {
-
     private String msg;
     private int code;//1000 success 10001 fail 1002 no auth
     private T body;

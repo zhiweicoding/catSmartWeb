@@ -14,3 +14,7 @@ spring:
     port: 6379
     password:
 
+easy-es:
+  address: 127.0.0.1:9200
+  username:
+  password:

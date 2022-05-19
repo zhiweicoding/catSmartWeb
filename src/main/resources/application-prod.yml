@@ -13,3 +13,7 @@ spring:
     port: 6379
     password: csdiao210
 
+easy-es:
+  address: 127.0.0.1:9200
+  username:
+  password:
