@@ -8,6 +8,7 @@ import io.github.zhiweicoding.csw.support.RedisSupport;
 import io.github.zhiweicoding.csw.support.ResponseFactory;
 import io.github.zhiweicoding.csw.tool.PageNumNextTool;
 import io.github.zhiweicoding.csw.tool.bean.PageHelperBean;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -28,6 +29,7 @@ import java.util.List;
 @RestController
 @RequestMapping(value = "/v1/api/search")
 @Slf4j
+@Tag(name = "查询接口")
 public class SearchController {
 
     @Autowired

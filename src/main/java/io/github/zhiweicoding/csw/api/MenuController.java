@@ -8,6 +8,7 @@ import io.github.zhiweicoding.csw.models.MenuBean;
 import io.github.zhiweicoding.csw.services.BookService;
 import io.github.zhiweicoding.csw.services.MenuService;
 import io.github.zhiweicoding.csw.support.ResponseFactory;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
@@ -25,6 +26,7 @@ import java.util.Random;
 @RestController
 @RequestMapping(value = "/v1/api/menu")
 @Slf4j
+@Tag(name = "目录接口")
 public class MenuController {
 
     @Autowired
